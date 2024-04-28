@@ -1,0 +1,721 @@
+Date: Sun, 28 Apr 2024 13:29:07 +0000 (UTC)
+Message-ID: <1065945972.277.1714310947061@ad6a4469eca9>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_276_2034909898.1714310947061"
+
+------=_Part_276_2034909898.1714310947061
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Test Plan Document for Protocommerce Website</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Test Plan Document for Protocommerce Website</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"TestPlanDocumentforProtocommerceWebsite-Introduction:"><s=
+trong>Introduction:</strong></h1>
+<p>The Protocommerce website aims to provide users with a seamless experien=
+ce in registering for the ProtoCommerse Forum, browsing and purchasing item=
+s from the Shop Page, and making secure payments. This test plan document o=
+utlines the testing strategy to ensure the functionality, reliability, and =
+performance of the website, adhering to both functional and non-functional =
+requirements.</p>
+<h1 id=3D"TestPlanDocumentforProtocommerceWebsite-TestScope:"><strong>Test =
+Scope:</strong></h1>
+<p>The testing will cover the Protocommerce Home Page, Shop Page, Checkout =
+Page, and Payment Page. It will focus on user interactions, error handling,=
+ security, performance, and usability aspects of the website.</p>
+<h1 id=3D"TestPlanDocumentforProtocommerceWebsite-TestEnvironment:"><strong=
+>Test Environment:</strong></h1>
+<p>The test environment plays a crucial role in ensuring the effectiveness =
+and reliability of software testing activities. It encompasses a range of d=
+evices, operating systems, and tools that are essential for conducting both=
+ manual and automated testing processes. This outline will delve into the c=
+omponents of a comprehensive test environment for web automation and manual=
+ non-functional testing.</p>
+<p><strong>Components of the Test Environment:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Devices:</strong></p>
+<ul>
+<li>
+<p>The primary device for testing will be a laptop to simulate the user exp=
+erience on a typical computing device.</p></li>
+</ul></li>
+<li>
+<p><strong>Operating System:</strong></p>
+<ul>
+<li>
+<p>The test environment will support Windows 10 and Windows 11 operating sy=
+stems to cover a broad user base.</p></li>
+</ul></li>
+<li>
+<p><strong>Manual Testing Tools:</strong></p>
+<ul>
+<li>
+<p><strong>MS Word:</strong> Used for documenting test evidence and reports=
+.</p></li>
+<li>
+<p><strong>Browsers:</strong> Chrome, Firefox, and Edge will be utilized fo=
+r manual testing to validate the compatibility and functionality of the web=
+ application.</p></li>
+</ul></li>
+<li>
+<p><strong>Automation Tools:</strong></p>
+<ul>
+<li>
+<p><strong>IDE:</strong> PyCharm will serve as the integrated development e=
+nvironment for writing and executing automated test scripts.</p></li>
+<li>
+<p><strong>Language:</strong> Python will be the programming language used =
+for automation due to its simplicity and versatility.</p></li>
+<li>
+<p><strong>Packages:</strong></p>
+<ul>
+<li>
+<p><strong>Selenium:</strong> The latest version of Selenium will be employ=
+ed for web automation testing.</p></li>
+<li>
+<p><strong>PyTest:</strong> A testing framework for easy test implementatio=
+n and execution.</p></li>
+<li>
+<p><strong>Reports:</strong> Tools for generating comprehensive test report=
+s.</p></li>
+<li>
+<p><strong>Data Driven Testing:</strong> Excel in conjunction with PyXL for=
+ data-driven testing.</p></li>
+<li>
+<p><strong>Allure:</strong> A reporting tool for visualizing test execution=
+ results.</p></li>
+</ul></li>
+<li>
+<p><strong>Design Pattern:</strong></p>
+<ul>
+<li>
+<p>Utilization of Page Object Model and Hybrid Framework for efficient test=
+ script organization and maintenance.</p></li>
+</ul></li>
+<li>
+<p><strong>Supporting Browsers:</strong></p>
+<ul>
+<li>
+<p>Testing will be conducted on Chrome, Microsoft Edge, and Firefox to ensu=
+re cross-browser compatibility.</p></li>
+</ul></li>
+</ul></li>
+</ol>
+<p><strong>Additional Test Environment Components:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Devices:</strong></p>
+<ul>
+<li>
+<p>In addition to laptops, testing will be extended to desktops, tablets, a=
+nd mobile phones to assess the responsiveness of the web application across=
+ various form factors.</p></li>
+</ul></li>
+<li>
+<p><strong>Operating Systems:</strong></p>
+<ul>
+<li>
+<p>The test environment will encompass macOS, iOS, and Android to cover a d=
+iverse range of platforms and ensure comprehensive testing coverage.</p></l=
+i>
+</ul></li>
+</ol>
+<h1 id=3D"TestPlanDocumentforProtocommerceWebsite-TestStrategy:"><strong>Te=
+st Strategy:</strong></h1>
+<h2 id=3D"TestPlanDocumentforProtocommerceWebsite-Levels:">Levels:</h2>
+<h3 id=3D"TestPlanDocumentforProtocommerceWebsite-UnitTesting:">Unit Testin=
+g:</h3>
+<p>Unit testing involves testing individual components or units of the soft=
+ware to ensure their correctness and functionality. In the context of Proto=
+commerse, unit testing would focus on:</p>
+<ul>
+<li>
+<p><strong>Form Fields:</strong> Validate that form fields such as Name, Em=
+ail, Password, and Checkout options function correctly. Ensure input valida=
+tions, error handling, and data submission.</p></li>
+<li>
+<p><strong>Buttons:</strong> Test the functionality of buttons like "Regist=
+er," "Login," "Add to Cart," and "Checkout" to ensure they perform the inte=
+nded actions.</p></li>
+<li>
+<p><strong>Navigation:</strong> Verify navigation links and menus to ensure=
+ users can move between pages and sections seamlessly.</p></li>
+</ul>
+<h3 id=3D"TestPlanDocumentforProtocommerceWebsite-IntegrationTesting:">Inte=
+gration Testing:</h3>
+<p>Integration testing is about testing the interaction and integration bet=
+ween different components and pages of the software. For Protocommerse, int=
+egration testing would focus on:</p>
+<ul>
+<li>
+<p><strong>Interaction between Components:</strong> Ensure that components =
+like user registration, shopping cart, and payment gateway integrate seamle=
+ssly without data loss or functionality issues.</p></li>
+<li>
+<p><strong>Page Navigation:</strong> Test the transition between pages, ens=
+uring that users can navigate between the Home Page, Shop Page, Checkout, a=
+nd Payment pages without errors or interruptions.</p></li>
+</ul>
+<h3 id=3D"TestPlanDocumentforProtocommerceWebsite-SystemTesting:">System Te=
+sting:</h3>
+<p>System testing validates the end-to-end functionality and user flows of =
+the entire system. In Protocommerse, system testing would involve:</p>
+<ul>
+<li>
+<p><strong>End-to-End Functionality:</strong> Test the complete user journe=
+y from registration to shopping and checkout, including user authentication=
+, product selection, adding items to cart, and completing the purchase proc=
+ess.</p></li>
+<li>
+<p><strong>User Flows:</strong> Validate different user flows such as a new=
+ user registering, an existing user logging in, browsing products, adding i=
+tems to the cart, and making a payment.</p></li>
+</ul>
+<h3 id=3D"TestPlanDocumentforProtocommerceWebsite-UserAcceptanceTesting(UAT=
+):">User Acceptance Testing (UAT):</h3>
+<p>User Acceptance Testing (UAT) involves actual users evaluating the websi=
+te's usability and overall satisfaction. In Protocommerse, UAT would includ=
+e:</p>
+<ul>
+<li>
+<p><strong>Usability Testing:</strong> Evaluate the website's ease of use, =
+user interface design, and intuitiveness for users.</p></li>
+<li>
+<p><strong>Functional Testing:</strong> Verify that all functionalities wor=
+k as expected from a user's perspective, including form submissions, shoppi=
+ng experience, and payment processing.</p></li>
+<li>
+<p><strong>Overall Satisfaction:</strong> Gather feedback from users regard=
+ing their experience, any issues encountered, and suggestions for improveme=
+nt.</p></li>
+</ul>
+<p>By conducting these testing levels in coherence with the requirements of=
+ Protocommerse, you ensure thorough validation of the application's functio=
+nality, usability, and overall user experience.</p>
+<h2 id=3D"TestPlanDocumentforProtocommerceWebsite-Phases">Phases</h2>
+<p>Certainly! Let's describe each type of testing based on the requirements=
+ provided for the Protocommerse project:</p>
+<h3 id=3D"TestPlanDocumentforProtocommerceWebsite-1.ExploratoryTesting:">1.=
+ Exploratory Testing:</h3>
+<p>Exploratory testing involves simultaneous learning, test design, and exe=
+cution. Testers explore the application without predefined test cases, focu=
+sing on understanding the system and identifying issues. In the context of =
+Protocommerse, exploratory testing can involve:</p>
+<ul>
+<li>
+<p>Exploring the Protocommerse Home Page to understand user registration an=
+d forum access.</p></li>
+<li>
+<p>Investigating the Shop Page functionality, including adding items to the=
+ cart and viewing checkout options.</p></li>
+<li>
+<p>Navigating through the Checkout and Payment pages to understand the paym=
+ent process and validations.</p></li>
+<li>
+<p>Testing various scenarios such as incomplete form submissions or unexpec=
+ted inputs to uncover usability issues or edge cases.</p></li>
+</ul>
+<h3 id=3D"TestPlanDocumentforProtocommerceWebsite-2.SmokeTesting:">2. Smoke=
+ Testing:</h3>
+<p>Smoke testing is a quick and shallow test to ensure that critical functi=
+onalities of the application work as expected after a build or deployment. =
+In Protocommerse, smoke testing involves:</p>
+<ul>
+<li>
+<p>Verifying that the Protocommerse Home Page loads without errors and disp=
+lays the registration form.</p></li>
+<li>
+<p>Checking basic functionalities like user registration, login, and naviga=
+tion to the Shop Page.</p></li>
+<li>
+<p>Ensuring that key components such as adding items to cart and proceeding=
+ to checkout are functional.</p></li>
+<li>
+<p>Validating that the payment gateway integration is operational and redir=
+ects to the payment page.</p></li>
+</ul>
+<h3 id=3D"TestPlanDocumentforProtocommerceWebsite-3.SanityTesting:">3. Sani=
+ty Testing:</h3>
+<p>Sanity testing focuses on a specific area or functionality to ensure its=
+ stability after changes or fixes. In Protocommerse, sanity testing may inc=
+lude:</p>
+<ul>
+<li>
+<p>Testing the user registration process with different types of valid inpu=
+ts (e.g., unique email addresses, valid passwords).</p></li>
+<li>
+<p>Verifying the functionality of the Shop Page, including adding multiple =
+items to the cart and updating cart quantities.</p></li>
+<li>
+<p>Checking the Checkout and Payment pages for any recent changes or update=
+s, such as new validation rules or user interface changes.</p></li>
+</ul>
+<h3 id=3D"TestPlanDocumentforProtocommerceWebsite-4.End-to-EndTesting:">4. =
+End-to-End Testing:</h3>
+<p>End-to-end testing validates the entire flow of the application from sta=
+rt to finish, simulating real user scenarios. In Protocommerse, end-to-end =
+testing would involve:</p>
+<ul>
+<li>
+<p>Registering a new user account, logging in, and accessing the forum sect=
+ion.</p></li>
+<li>
+<p>Browsing and adding items to the cart, proceeding through the checkout p=
+rocess, and making a payment (simulated in a test environment).</p></li>
+<li>
+<p>Verifying that the order confirmation and receipt are generated correctl=
+y after successful payment.</p></li>
+<li>
+<p>Testing the complete user journey from registration to purchasing a prod=
+uct to ensure a seamless experience.</p></li>
+</ul>
+<h3 id=3D"TestPlanDocumentforProtocommerceWebsite-5.RegressionTesting:">5. =
+Regression Testing:</h3>
+<p>Regression testing ensures that recent changes or updates to the applica=
+tion do not adversely affect existing functionalities. In Protocommerse, re=
+gression testing includes:</p>
+<ul>
+<li>
+<p>Re-testing previously verified functionalities (e.g., user registration,=
+ shopping cart) after new feature implementations.</p></li>
+<li>
+<p>Verifying that fixes for reported defects or issues do not introduce new=
+ problems.</p></li>
+<li>
+<p>Testing the entire application or critical workflows to ensure overall s=
+ystem stability.</p></li>
+<li>
+<p>Conducting regression tests periodically, especially before major releas=
+es or updates, to catch any regressions early.</p></li>
+</ul>
+<p>By incorporating these testing types based on the Protocommerse requirem=
+ents, you can ensure thorough validation and quality assurance across diffe=
+rent aspects and stages of the project.</p>
+<h1 id=3D"TestPlanDocumentforProtocommerceWebsite-Non-FunctionalTesting:"><=
+strong>Non-Functional Testing:</strong></h1>
+<p>Certainly! Let's describe each type of testing in coherence with the req=
+uirements of the Protocommerse project:</p>
+<h3 id=3D"TestPlanDocumentforProtocommerceWebsite-SecurityTesting:">Securit=
+y Testing:</h3>
+<p>Security testing focuses on ensuring the security of the Protocommerse w=
+ebsite. This includes:</p>
+<ul>
+<li>
+<p><strong>Data Privacy Measures:</strong> Validate that sensitive user inf=
+ormation such as personal details and payment data is securely handled and =
+protected from unauthorized access or data breaches.</p></li>
+<li>
+<p><strong>Secure Payment Processing:</strong> Test the payment gateway int=
+egration to ensure that payment transactions are secure, encrypted, and com=
+ply with industry standards for online payment security.</p></li>
+<li>
+<p><strong>User Authentication and Session Management:</strong> Verify the =
+effectiveness of user authentication mechanisms to prevent unauthorized acc=
+ess. Test session management to ensure sessions are secure and users are lo=
+gged out after a period of inactivity.</p></li>
+</ul>
+<h3 id=3D"TestPlanDocumentforProtocommerceWebsite-PerformanceTesting:">Perf=
+ormance Testing:</h3>
+<p>Performance testing evaluates the speed, responsiveness, and scalability=
+ of the Protocommerse website. This includes:</p>
+<ul>
+<li>
+<p><strong>Website Speed and Response Time:</strong> Measure the loading sp=
+eed of web pages, including Home Page, Shop Page, and Checkout pages. Test =
+response times for user interactions such as adding items to cart and compl=
+eting payments.</p></li>
+<li>
+<p><strong>Optimization for Smooth User Experience:</strong> Check for opti=
+mization techniques such as caching, minification, and content delivery net=
+work (CDN) usage to ensure a fast and seamless user experience, especially =
+during peak traffic periods.</p></li>
+</ul>
+<h3 id=3D"TestPlanDocumentforProtocommerceWebsite-UsabilityTesting:">Usabil=
+ity Testing:</h3>
+<p>Usability testing focuses on assessing the user interface and overall us=
+er experience of the Protocommerse website. This includes:</p>
+<ul>
+<li>
+<p><strong>Intuitive Navigation:</strong> Evaluate the website's navigation=
+ menus, links, and buttons to ensure users can easily find information, and=
+ products, and navigate between pages.</p></li>
+<li>
+<p><strong>Cross-Device Interaction:</strong> Confirm that the website is r=
+esponsive and provides a consistent user experience across various devices =
+such as desktops, laptops, tablets, and smartphones.</p></li>
+</ul>
+<h3 id=3D"TestPlanDocumentforProtocommerceWebsite-ReliabilityTesting:">Reli=
+ability Testing:</h3>
+<p>Reliability testing ensures the reliability, availability, and integrity=
+ of the Protocommerse system. This includes:</p>
+<ul>
+<li>
+<p><strong>System Availability:</strong> Test the system's uptime and avail=
+ability to ensure it can handle concurrent user sessions and traffic loads =
+without downtime or disruptions.</p></li>
+<li>
+<p><strong>Data Integrity:</strong> Validate that user data, order informat=
+ion, and payment details are accurately processed, stored securely, and not=
+ compromised.</p></li>
+<li>
+<p><strong>Error Handling Mechanisms:</strong> Test error handling function=
+alities to validate how the system responds to unexpected inputs, invalid d=
+ata, and system errors. Ensure that error messages are informative and help=
+ users resolve issues effectively.</p></li>
+</ul>
+<p>By conducting these types of testing in coherence with the requirements =
+of Protocommerse, you can ensure a secure, high-performing, user-friendly, =
+and reliable website for your users.</p>
+<h1 id=3D"TestPlanDocumentforProtocommerceWebsite-TestSchedule:"><strong>Te=
+st Schedule:</strong></h1>
+<p>Certainly! Below are the surface-level schedule for each phase, to descr=
+ibe the activities and phases of each activity, refer to the below document=
+</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"2897ace8-85a3-4bc8-912e-f0d=
+69dbb8ccb" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#b3d4ff" class=3D"confluenceTd">
+<p style=3D"text-align: center;"><strong>Phase</strong></p></td>
+<td data-highlight-colour=3D"#b3d4ff" class=3D"confluenceTd">
+<p style=3D"text-align: center;"><strong>Start Date</strong></p></td>
+<td data-highlight-colour=3D"#b3d4ff" class=3D"confluenceTd">
+<p style=3D"text-align: center;"><strong>End Date</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Requirement</p></td>
+<td class=3D"confluenceTd">
+<p>[Insert]</p></td>
+<td class=3D"confluenceTd">
+<p>[Insert]</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Planning</p></td>
+<td class=3D"confluenceTd">
+<p>[Insert]</p></td>
+<td class=3D"confluenceTd">
+<p>[Insert]</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Design</p></td>
+<td class=3D"confluenceTd">
+<p>[Insert]</p></td>
+<td class=3D"confluenceTd">
+<p>[Insert]</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Environment Setup</p></td>
+<td class=3D"confluenceTd">
+<p>[Insert]</p></td>
+<td class=3D"confluenceTd">
+<p>[Insert]</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Execution</p></td>
+<td class=3D"confluenceTd">
+<p>[Insert]</p></td>
+<td class=3D"confluenceTd">
+<p>[Insert]</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Closure</p></td>
+<td class=3D"confluenceTd">
+<p>[Insert]</p></td>
+<td class=3D"confluenceTd">
+<p>[Insert]</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>High-level Test Schedule: <img height=3D"250" style=3D"margin: 2px; bord=
+er: 1px solid #ddd; box-sizing: border-box; vertical-align: text-bottom;" s=
+rc=3D"70a92d31e25975edd51d5b1ab5b787e845ff860df2a0375b31abe02959ffe975" wid=
+th=3D"250"></p>
+<p>Adjust the start date, end date, and specific activities based on your p=
+roject timeline and requirements. This table provides a structured approach=
+ to planning and scheduling testing activities from the Requirement phase t=
+o test closure.</p>
+<h1 id=3D"TestPlanDocumentforProtocommerceWebsite-Conclusion:"><strong>Conc=
+lusion:</strong></h1>
+<p>This test plan document outlines a comprehensive strategy to ensure the =
+functionality, reliability, and performance of the Protocommerce website. B=
+y conducting rigorous testing, including unit testing, integration testing,=
+ system testing, and user acceptance testing, we aim to deliver a high-qual=
+ity website that meets the specified requirements and provides an excellent=
+ user experience.</p>
+<p><strong>Note:</strong> This test plan document serves as a guideline for=
+ the testing process and can be adapted as per specific requirements during=
+ the testing phase.</p>
+    </div>
+</body>
+</html>
+------=_Part_276_2034909898.1714310947061
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/70a92d31e25975edd51d5b1ab5b787e845ff860df2a0375b31abe02959ffe975
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAADAFBMVEX19fXv7+98fHx1dXV9fX23
+t7eenp5wcHDn5+f09PTz8/Pd3d2SkpLY2Njt7e3Q0NCioqJycnKqqqq7u7uurq6CgoKGhobOzs7D
+w8PR0dGNjY3Hx8fj4+PGxsbS0tKoqKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABYhwFnAAAEM0lEQVR4Xu3cC0/iShTA8aGlTC3vBYWNot3v/6XIvbvJ6roxrqAi
+Qm+nDxhGNItIRy7/X2KdnjNtPPYVnaFCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAe
+KJmB3fDnc9eMvWLmOI9mbI/5Zc83Y6/xPeev++6BimdG3uJVzMhOOGZgJ/76bE+4czOyx6QZeNuG
+3d+pmKP+KR1w6RtdhO9WnpmRRr8ycbrH0cRMKC+774Kl0uv37sNTJGaj+rraX3TfY+Z9qye/po2v
+sr6aSZjd95lRS6N8njebbkPPpIop3cptrt36J2/eNtt6pkhlM1CE+4dle2LlJyiOcQa72h9NDXWj
+NfL/3xP+qBwtV/5YO+o2Sv8kKP0QUfohslZ6MQ+wt1gr3T5KP0SUfogo/RBR+iGidHuCIDBDBbFS
+uip2mo0ku969OLJSvY3SH279+GC30pX6XIjodrVDMWyULoKmuG/d9IX6j/zveyGaVo66lYGnyHkU
+fwK36nRv6lFcuvewOqJezMCTldJrd8FUPIm6O3bupkJUH4LVkbdiSi+G+X+JgdSmy/jO6XIlYXbf
+Zy9q6ZSrebMuO3pGedF9j72sZeC0ev7Rkd9rlc1jvq77/lpTS8OrlWW7XPPWzNxb031vbVjLht3f
+ycpz/XOg9B2bbTT10y/msV5M6c5GxcwK+qHMwE440SbTgwsqfc2jZRcOd1I4AAAAAAAAAMCK0Axk
+wlfamtAMbGO7D9iFeWO4jGXCPFRSw8jP/R968lPYrvSh0Gp8RWkWjIL6tRm278PGeDpSylqg5ofE
+OvH5EIZhkvC8u2h8reYJqS7d7Hvy7pl8G/FFRkkm3SJdLrOiIb8kndRQUbp/PfJeH1X66agrK9Nn
+IZ6ikjwZxefDcDhMU/lUmc6oJntq3HHUlselqbZNf3zSPLnLuuUWWfW51/FA9MbH6qOw6f71iD1h
+spS9eHEm48aZHo550m2dqoMns/fyhE2RdV1so347Xqgd9VDLKgN5qtZVONt/FtnCdte65mf89e2x
+JDq/jiP/u5aY+m3nWvQuhXCnWST++q5uEfk2YizWzOBbZGP/Xgwrl0kr3/8yYk+YLPODIcR5xZUV
+8znUVcc2G2dOM6G2TZLxwywVpI3lHpVapN7OpPLZ/rOIVWGylBdaqBoXGq3Me/VV6fkJny8X2yxO
++KTcZriaVTqyqTqF6ZrafxaxKkyWfdn1/U5y3fqNC/W9n9Uuu9VS3XXU1dlpnLta6YttOnLQGMg4
+4rpnaUPPxitVeSp6spr8RtL955EtfNQd/ufJXRSN2kK0R9FEvYlgfjMOk0z35rnydFSLr875aHKp
+v5Rjsc3v6tXtlXpLixf9mlzVjGz8cHuOfojL+rN6mUm6fz0CAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAO3X9h/tl1RABGGwAAAABJRU5ErkJggg==
+------=_Part_276_2034909898.1714310947061--
