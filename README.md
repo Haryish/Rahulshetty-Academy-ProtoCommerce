@@ -65,4 +65,4 @@ The Rahulshetty Academy - Protocommerse website aims to provide a user-friendly 
 
 5\. Collaboration?
 --------------
-<a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__iolOkRUNlUxV0FVSTdKRTA2UENPQ0IxQTZQNzhRNy4u">Join us</a>
+<a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__iolOkRUNlUxV0FVSTdKRTA2UENPQ0IxQTZQNzhRNy4u">Join us</a> to get access to the contract <a href="https://webdevelopementcourse.atlassian.net/wiki/x/AwA3Aw"> RSD </a>
