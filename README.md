@@ -1,4 +1,4 @@
-Requirement Specification Document (RSD): Rahulshetty Academy - Protocommerse
+Rahulshetty Academy - Protocommerse
 =============================================================================
 
 1\. Introduction
